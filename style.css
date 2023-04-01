@@ -1,0 +1,32 @@
+.banner {
+  background-image: url("photo.jpg");
+  background-size: cover;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+}
+.container {
+  width: 900px;
+  margin: 700px auto;
+  margin-top: 50px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+.link-medium {
+  background-color: azure;
+}
+
+.link-medium:hover {
+  background-color: rgb(20, 184, 127);
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: rgba(200, 216, 223, 0.2);
+  font-size: 20px;
+}
